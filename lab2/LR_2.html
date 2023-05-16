@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторна робота №2</title>
+</head>
+<style>
+    .column
+    {
+        float: left;
+        width: 23.8%;
+        margin-bottom: 40px;
+        padding: 0 9px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column
+        {
+            width: 100%;
+            display: block;
+            text-align: center;
+            align: center;
+        }
+    }
+    .card
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .container
+    {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        text-align: center;
+    }
+
+    .title {
+        color: grey;
+        text-align: center    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: black;
+        background-color: lightgreen;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    .button:hover
+    {
+        background-color: #555;
+    }
+
+    img
+    {
+        border-radius: 30%;
+    }
+
+</style>
+<body>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="1.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2 style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Jacqueline de Yong</p>
+                <p  class="title">CEO &amp; Founder</p>
+                <p>+380 44 503 0308</p>
+                <p>Kiyv, Liberty st., 15</p>
+                <p>jks08@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="2.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2 style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Michael Foreman</p>
+                <p class="title">Art Director</p>
+                <p>+380 44 240 3267</p>
+                <p>Rivne, ave. Fiszkulturna, 61</p>
+                <p>phillipsm61@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="3.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2 style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Joseph Kilique</p>
+                <p class="title">Designer</p>
+                <p>+380 44 171 0672</p>
+                <p>Poltava, ave. Lesya Ukrainka, 01</p>
+                <p>panday@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="4.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2  style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Martha Sefiera</p>
+                <p class="title">IT technician</p>
+                <p>+380 44 448 7243</p>
+                <p>Chernihiv, str. Volodymyrska, 09</p>
+                <p>pinotml@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="5.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2 style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Josephine Derie</p>
+                <p class="title">Web developer</p>
+                <p>+380 44 924 2977</p>
+                <p>Lutsk, square Prorizna, 35</p>
+                <p>ilal@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="6.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2 style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Marcus Dewey</p>
+                <p class="title">Systems analyst</p>
+                <p>+380 44 161 6870</p>
+                <p>Lutsk, ave. Mykhaylo Hrushevskyi, 03</p>
+                <p>jkkuralai@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="7.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2  style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Anastasia Rekova</p>
+                <p class="title">IT security specialist</p>
+                <p>+380 44 408 0458</p>
+                <p>Kharkiv, str. Artema, 24</p>
+                <p>nbebiya@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="8.jpg" alt="Avatar" style="width:115px">
+            <div class="container">
+                <h2  style="font-family:Bahnschrift; font-size: 15px"/>
+                <p>Dale Mundermann </p>
+                <p class="title">Quality assurance tester</p>
+                <p>+380 44 408 0458</p>
+                <p>Kropyvnytskyi, str. Zahidna, 77</p>
+                <p>lakrasia@gmail.com</p>
+                <p><button class="button">Contact with Me</button></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
